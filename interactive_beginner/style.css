@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+nav {
+  width: 100vw;
+  height: 300px;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */

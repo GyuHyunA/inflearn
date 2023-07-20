@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #13adcc;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  transition: all 1.5s cubic-bezier(0.445, 0.005, 0.57, 1.015);
+}
+.box img {
+  width: inherit;
+  height: inherit;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+}/*# sourceMappingURL=style.css.map */
